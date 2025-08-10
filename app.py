@@ -10,8 +10,8 @@ def adder():
     a = request.form.get("a", "")
     b = request.form.get("b", "")
 
-    a=int(a)
-    b =int(b)
+    a = int(a)
+    b = int(b)
     result = a+b
     return render_template("result.html", result=result)
 
